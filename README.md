@@ -122,7 +122,8 @@ open up localhost:
 
    - AWS_ACCESS_KEY_ID
    - AWS_SECRET_ACCESS_KEY
-   - AWS_DEFAULT_REGION
    - ECR_REPO
    - PINECONE_API_KEY
    - OPENAI_API_KEY
+
+   The workflow uses `ap-southeast-2`, matching the ECR repository region above; no region secret is required.
